@@ -1,0 +1,12 @@
+@import '../../constants/style/variables.scss';
+
+.counter {
+    font-weight: 900;
+    margin: 8% 0;
+    text-align: center;
+    width: 100%;
+
+    @media (min-width: $screen-sm-min) {
+        margin: 2% 0;
+    }
+}

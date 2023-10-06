@@ -1,0 +1,44 @@
+@import '../../constants/style/variables.scss';
+
+.header {
+    background-color: $olive;
+    display: flex;
+    justify-content: center;
+    padding: 3% 0;
+    width: 100%;
+}
+
+.content {
+    text-align: center;
+    width: 90%;
+
+    @media (min-width: $screen-sm-min) {
+        width: 75%;
+    }
+
+    @media (min-width: $screen-md-min) {
+        width: 60%;
+    }
+
+    @media (min-width: $screen-mlg-min) {
+        width: 50%;
+    }
+}
+
+.title {
+    color:$white;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.filter {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+
+    @media (min-width: $screen-sm-min) {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}

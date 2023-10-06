@@ -1,0 +1,55 @@
+// -----------------------------------------------------------------------------
+// TABLE OF CONTENTS
+// -----------------------------------------------------------------------------
+//  01. Colors
+//    01.01 Base colors
+//  02. Typography
+//    02.01 Font size
+//  03. Media queries breakpoints
+//    03.01 Extra small screen / phone
+//    03.02 Small screen / tablet
+//    03.03 Medium screen / tablet horizontal orientation
+//    03.04 Macbook desktop
+//    03.05 Large screen / desktop
+//    03.06 1080p displays
+
+//  01. Colors
+//    01.01 Base colors
+$blue: #00AFDB;
+$dark-blue: #009CC2;
+$white: #FFFFFF;
+$olive: #9E9767;
+$grey: #8D9691;
+$dark-grey: #676e65;
+$black: #010101;
+
+//  02. Typography
+//    02.01 Font size
+$default-font-size: 17px;
+
+//  03. Media queries breakpoints
+$content-width: 1440px;
+
+//    03.01 Extra small screen / phone
+$screen-xs: 320px;
+$screen-xs-min: $screen-xs;
+
+//    03.02 Small screen / tablet
+$screen-sm: 768px;
+$screen-sm-min: $screen-sm;
+
+//    03.03 Medium screen / tablet horizontal orientation
+$screen-md: 1024px;
+$screen-md-min: $screen-md;
+
+//    03.04 Macbook desktop
+$screen-lg: 1180px;
+$screen-lg-min: $screen-lg;
+
+//    03.05 Large screen / desktop
+$screen-mlg: 1440px;
+$screen-mlg-min: $screen-mlg;
+
+//    03.06 1080p displays
+$screen-xl: 1920px;
+$screen-xl-min: $screen-xl;

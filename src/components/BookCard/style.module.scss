@@ -1,0 +1,44 @@
+@import '../../constants/style/variables.scss';
+
+.card {
+    background-color: $olive;
+    margin: 1%;
+    min-width: 200px;
+    padding: 15px;
+    text-align: center;
+    width: 5%;
+
+    &:hover {
+        transform: scale(1.03);
+    }
+}
+
+.imgBlock {
+    height: 230px;
+}
+
+.notFound {
+    height: 150px;
+    width: 150px;
+}
+
+.description {
+    text-align: start;
+    width: 100%;
+}
+
+.subject {
+    color: $dark-grey;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.title {
+    font-weight: 550;
+    margin: 4% 0;
+}
+
+.authors {
+    color: $dark-grey;
+    font-size: 15px;
+}
